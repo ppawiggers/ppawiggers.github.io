@@ -4,7 +4,7 @@ title: About me
 permalink: /about-me/
 ---
 
-My name is Peter Wiggers and I've been a freelance cloud consultant since 2015. I specialize in the Google Cloud Platform and Kubernetes.
+My name is Peter Wiggers (Amsterdam, The Netherlands) and I've been a freelance cloud consultant since 2015. I specialize in the Google Cloud Platform and Kubernetes.
 
 What I do:
 

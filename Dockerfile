@@ -2,6 +2,10 @@ FROM jekyll/jekyll:4
 
 WORKDIR /app
 
+RUN mkdir .jekyll-cache _site
+
 RUN gem install github-pages webrick
 
-RUN jekyll serve
+COPY . .
+
+CMD jekyll serve

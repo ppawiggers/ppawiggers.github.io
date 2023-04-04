@@ -1,6 +1,6 @@
 name: Peter Wiggers Blog
 author: Peter Wiggers
-description: Some experiences of a GCP/Kubernetes addict
+description: Experiences of a GCP/Kubernetes connoisseur
 avatar: /images/avatar.png
 url: https://peterwiggers.com
 enforce_ssl: https://peterwiggers.com
@@ -13,7 +13,6 @@ footer-links:
 #google_analytics_ga4: tbd
 
 permalink: /:title/
-version: v1.2.0
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
