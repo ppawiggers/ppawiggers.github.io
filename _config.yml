@@ -1,69 +1,18 @@
-#
-# This file contains configuration flags to customize your site
-#
-
-# Name of your site (displayed in the header)
 name: Peter Wiggers Blog
-
-# Name of the author
 author: Peter Wiggers
-
-# Short bio or description (displayed in the header)
-description: A blog about GCP and Kubernetes
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars.githubusercontent.com/u/927784?s=400&u=d60728e13a898d0bbe88d4258989a785b9ce0107&v=4
-
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: peter@bitlayer.nl
-  facebook:
-  flickr:
-  github: 
-  instagram:
-  linkedin: 
-  pinterest:
-  rss: rss
-  twitter: 
-  stackoverflow: 
-  youtube: 
-  googleplus: 
-  playconsole:
-  mastodon:
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus: 
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-#google_analytics: tbd
-
-# For newer "GA4" analytics, use the following instead of the "UA" entry above
-#google_analytics_ga4: tbd
-
-# Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
-# Used for Sitemap.xml and your RSS feed
+description: Some experiences of a GCP/Kubernetes addict
+avatar: /images/avatar.png
 url: https://peterwiggers.com
 enforce_ssl: https://peterwiggers.com
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
+footer-links:
+  email: peter@bitlayer.nl
+  rss: rss
+#disqus:
+#google_analytics: tbd
+#google_analytics_ga4: tbd
 
 permalink: /:title/
-
-# The release of Jekyll Now that you're using
 version: v1.2.0
 
 # Jekyll 3 now only supports Kramdown for Markdown
@@ -78,9 +27,8 @@ kramdown:
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  style: expanded # You might prefer to minify using :compressed
 
-# Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
@@ -89,14 +37,12 @@ plugins:
 
 include: ['_pages']
 
-paginate: 6
+paginate: 5
 paginate_path: /page:num/
 
-# Exclude these files from your production _site
 exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
   - CNAME
-
