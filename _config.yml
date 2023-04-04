@@ -2,8 +2,8 @@ name: Peter Wiggers Blog
 author: Peter Wiggers
 description: Experiences of a GCP/Kubernetes connoisseur
 avatar: /images/avatar.png
-url: https://peterwiggers.com
-enforce_ssl: https://peterwiggers.com
+url: https://p10s.cloud
+enforce_ssl: https://p10s.cloud
 baseurl: ""
 footer-links:
   email: peter@bitlayer.nl
