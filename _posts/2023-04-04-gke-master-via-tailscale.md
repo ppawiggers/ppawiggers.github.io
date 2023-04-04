@@ -5,10 +5,7 @@ categories: [Tailscale, GCP, GKE]
 ---
 
 # TLDR
-To securely connect to you GKE control plane using private IPs only:
-
-1. set up a Compute Engine VM, install Tailscale and advertise the route to the GKE control plane
-2. make sure the client is in the same tailnet and fetch the cluster credentials with the `--internal-ip` flag
+To securely connect to you GKE control plane using private IPs only: 1) set up a Compute Engine VM, install Tailscale and advertise the route to the GKE control plane, and 2) make sure the client is in the same tailnet and fetch the cluster credentials with the `--internal-ip` flag.
 
 # Introduction
 When accessing private/internal resources, you usually want two layers of security: authentication (handled by GCP IAM) and connectivity (handled by networking configuration). In case of a vulnerability your resource will still be protected by the other layer.
